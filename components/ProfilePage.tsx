@@ -17,13 +17,13 @@ export function ProfilePage({ data }: { data: ProfileData }) {
       <Nav name={data.name} resumePdf={data.resumePdf} />
       <main>
         <Hero data={data} />
+        <Contact data={data} />
         <About data={data} />
         <Experience data={data} />
         <Products data={data} />
         <Projects data={data} />
         <Skills data={data} />
         <Achievements data={data} />
-        <Contact data={data} />
       </main>
       <Footer data={data} />
     </div>

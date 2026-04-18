@@ -33,6 +33,7 @@ export const sambhav: ProfileData = {
       location: "Bangalore, India",
       dates: "Aug 2025 – Present",
       bullets: [
+        "Shipped production code — built a multi-modal AI pipeline now live in HyperVerge's underwriting product.",
         "Worked on a 0-1 business classification system POC for US clients, automating standardized code predictions using multi-modal AI models across enterprise data sources.",
         "Modified pipeline for automated merchant categorization and multilingual text extraction from diverse Indian shop images.",
       ],
@@ -71,6 +72,17 @@ export const sambhav: ProfileData = {
         "Developed Large Action Model to automate system actions (wifi/bluetooth toggle, SMS) via natural language using Llama 70B.",
       ],
       tech: ["Java", "OpenRouter", "Llama-70B"],
+    },
+  ],
+
+  products: [
+    {
+      name: "AI Dating Coach — Zach AI",
+      oneLine:
+        "Personality-driven AI coaching product built in collaboration with Zach AI.",
+      description:
+        "Built an AI Dating Coach in collaboration with Zach AI, modeled on the tone and advice style of a popular creator. The product delivers personalized coaching through a conversational AI trained to capture the creator's voice, frameworks, and guidance patterns.",
+      tech: ["LLMs", "Prompt Engineering", "Conversational AI"],
     },
   ],
 
