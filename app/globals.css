@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-rgb: 245 166 35; /* default amber; overridden per-profile */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background: #0a0a0a;
+  color: #ededed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgb(var(--accent-rgb) / 0.35);
+  color: #fff;
+}
+
+/* Accent themes applied via a wrapper class on the profile root */
+.theme-amber {
+  --accent-rgb: 245 166 35;
+}
+
+.theme-cyan {
+  --accent-rgb: 56 189 248;
+}
+
+/* Subtle link underline */
+.link-underline {
+  background-image: linear-gradient(rgb(var(--accent-rgb)), rgb(var(--accent-rgb)));
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 220ms ease;
+}
+.link-underline:hover {
+  background-size: 100% 1px;
+}
+
+/* Thin hairline dividers */
+.hairline {
+  border-color: #1f1f1f;
+}
