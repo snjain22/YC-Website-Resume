@@ -14,7 +14,7 @@ export const sambhav: ProfileData = {
     linkedin: "https://www.linkedin.com/in/sambhav-jain-631365215",
   },
   photo: "/sambhav.jpeg",
-  photoPosition: "center 22%",
+  photoPosition: "center 40%",
   resumePdf: "/sambhav-resume.pdf",
   accent: "cyan",
 
