@@ -60,6 +60,7 @@ export interface ProfileData {
   location?: string;
   socials: Socials;
   photo: string;
+  photoPosition?: string;
   resumePdf: string;
   accent: AccentName;
   education: Education[];

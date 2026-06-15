@@ -13,7 +13,8 @@ export const sambhav: ProfileData = {
     github: "https://github.com/snjain22",
     linkedin: "https://www.linkedin.com/in/sambhav-jain-631365215",
   },
-  photo: "/sambhav.svg",
+  photo: "/sambhav.jpeg",
+  photoPosition: "center 22%",
   resumePdf: "/sambhav-resume.pdf",
   accent: "cyan",
 

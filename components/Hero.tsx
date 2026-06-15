@@ -122,6 +122,7 @@ export function Hero({ data }: { data: ProfileData }) {
             priority
             sizes="(max-width: 768px) 80vw, 400px"
             className="object-cover"
+            style={{ objectPosition: data.photoPosition ?? "center" }}
           />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-bg/40 via-transparent to-transparent" />
         </motion.div>
